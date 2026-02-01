@@ -29,7 +29,6 @@ public class Main {
         System.out.println(Arrays.toString(inputArray1));
         System.out.println(Arrays.toString(outputArray1));
 
-
         System.out.println("Задача 2");
         int[] inputArray2 = {27000, 35000, 40000, 29000, 42000};
         int index = 0;
@@ -54,7 +53,6 @@ public class Main {
             System.out.println(inPutArray3[b]);
             System.out.println(outPutArray3[b]);
         }
-
 
         System.out.println("Задача 4");
         int[] inputArray4 = {100, -200, 300, 400, -500};
