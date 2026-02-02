@@ -39,12 +39,15 @@ public class Main {
         System.out.println(Arrays.toString(outputArray2));
         System.out.println();
 
+
         System.out.println("Задача 3");
         int[] inPutArray3 = {4000, 3500, 4500, 7500, 5500};
         boolean[] outPutArray3 = new boolean[inPutArray3.length];
         int maxbonus = 5000;
-        for (int b = 0; b < inPutArray3.length; b++) {
-            outPutArray3[b] = inPutArray3[b] > maxbonus;
+        int b = 0;
+        for (int i : inPutArray3) {
+            outPutArray3[b] = i > maxbonus;
+            b++;
         }
         System.out.println(Arrays.toString(inPutArray3));
         System.out.println(Arrays.toString(outPutArray3));
